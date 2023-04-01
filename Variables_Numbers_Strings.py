@@ -92,3 +92,15 @@ print(b)
 s = 'maine 200 banana khaye'
 print(s.replace('200', '10').replace('banana','samosa'))
 # -----------------------------------------------------------------------------------------------------------
+# User_Input
+# Write a program that can find area of a triangle. It should take base and height as an input
+# from the user and using that it should print an area of a triangle
+# base = input("Enter the base: ")
+# height = input("Enter the height: ")
+# Area_of_triangle = float(base) * float(height)
+# print(f'Area of triangle is: {Area_of_triangle}')
+# ----------------------------------------------------------------------------------------------------
+# Write a program that takes file name with extension as an input and prints just the filename without
+# extension (you can assume that file extensions are always 3 character long)
+file_name = input("Enter a filename with extension")
+print("File name without extension:", file_name[:len(file_name)-4])
