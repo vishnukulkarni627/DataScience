@@ -104,3 +104,4 @@ print(s.replace('200', '10').replace('banana','samosa'))
 # extension (you can assume that file extensions are always 3 character long)
 file_name = input("Enter a filename with extension")
 print("File name without extension:", file_name[:len(file_name)-4])
+# ------------------------------------------------------------------------------------------------------
