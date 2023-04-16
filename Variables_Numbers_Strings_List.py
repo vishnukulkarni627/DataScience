@@ -143,3 +143,41 @@ print(heros)
 # 5. sort the heros list in alphabetical order
 heros.sort()
 print(heros)
+# ----------------------------------------------------------------------------------------------
+# If condition
+India = ['mumbai', 'bangalore', 'chennai', 'delhi']
+Pakistan = ['lahore', 'karachi', 'islamabad']
+Bangladesh = ['dhaka', 'khulna', 'rangpur']
+# 1. Write a program that asks user to enter a city name and it should tell which
+# country the city belongs to
+# City_name = input("Enter the city name: ")
+# if City_name in India:
+#     print(f'{City_name} belongs to India')
+# elif City_name in Pakistan:
+#     print(f'{City_name} belongs to Pakistan')
+# elif City_name in Bangladesh:
+#     print(f'{City_name} belongs to Bangladesh')
+# else:
+#     print("Error:Please check City name")
+# 2. Write a program that asks user to enter two cities and it tells you if they both are in
+# same country or not. For example if i enter mumbai and chennai, it will print both cities are in India
+# but if i enter mumbai and dhaka it should print they don't belong to same country'
+# city_1 = input('Enter city_1 name: ')
+# city_2 = input('Enter city_2 name: ')
+# if city_1 and city_2 in India:
+#     print(f'{city_1} {city_2} Both cities are in India')
+# else:
+#     print(f'{city_1} {city_2} They not belong to same country')
+# 3. Write a python program that can tell you if your sugar is normal or not.
+# Normal fasting level sugar range is 80 to 100
+# 1. Ask user to enter his fasting sugar level
+# Sugar_level = input('Enter your sugar level: ')
+# Sugar_level = float(Sugar_level)
+# 2. If it is below 80 to 100 range then print that sugar is low
+# if Sugar_level < 80:
+#     print("Your sugar is low")
+# elif Sugar_level > 100 :
+#     print('Sugar level is high')
+# else:
+#     print("Your sugar level is normal")
+# ----------------------------------------------------------------------------------------------------------
