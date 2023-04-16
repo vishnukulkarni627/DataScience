@@ -102,6 +102,44 @@ print(s.replace('200', '10').replace('banana','samosa'))
 # ----------------------------------------------------------------------------------------------------
 # Write a program that takes file name with extension as an input and prints just the filename without
 # extension (you can assume that file extensions are always 3 character long)
-file_name = input("Enter a filename with extension")
-print("File name without extension:", file_name[:len(file_name)-4])
+# file_name = input("Enter a filename with extension")
+# print("File name without extension:", file_name[:len(file_name)-4])
 # ------------------------------------------------------------------------------------------------------
+# List
+exp = [2200, 2350, 2600, 2130, 2190]
+# 1. In feb, how many dollars you spent extra compare to january?
+dol = exp[1]-exp[0]
+print(dol)
+# 2. Find out your total expenses in first quater(3M) of the year
+threeM = exp[0]+exp[1]+exp[2]
+print(threeM)
+# 3. Find out if you spent exactly 2000 dollars in any month
+doll = 2000 in exp
+print(doll)
+# 4. June month just finished and your expense is 1980 dollar . Add this item to our monthly expense list
+exp.append(1980)
+print(exp)
+# 5. You returned an item that you bought in a month of april and got a refund of 200$, make a correction to your monthly expense list based on this
+mod = exp[3]-200
+print(mod)
+exp.insert(3,mod)
+print(exp)
+# ---------------------------------------------------------------------------------------------------------
+# List_2
+heros = ['spider man', 'thor', 'hulk', 'iron man', 'captain america']
+# 1. Length of the list
+print(len(heros))
+# 2. Add 'black panther' at the end of the list
+heros.append('black panther')
+print(heros)
+# 3. you realize that you need to add 'blank panther' after 'hulk' so remove it from list first and then add it after 'hulk'
+heros.remove('black panther')
+print(heros)
+heros.insert(3, 'black panther')
+print(heros)
+# 4. Now you don't like thor and hulk because they get angry easily so remove thor and hulk from list and replace them with doctor strange do that with one line of code'
+heros[1:3]=['doctor strange']
+print(heros)
+# 5. sort the heros list in alphabetical order
+heros.sort()
+print(heros)
